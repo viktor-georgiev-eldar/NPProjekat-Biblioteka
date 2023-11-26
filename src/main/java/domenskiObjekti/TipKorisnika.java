@@ -6,9 +6,17 @@
 package domenskiObjekti;
 
 /**
+ *	Predstavlja dozvoljene vrednosti za tipa korisnika
  *
- * @author agro
+ * @author Viktor
  */
 public enum TipKorisnika {
-    ADMINISTRATOR,KORISNIK;
+    /**
+     * Administrator
+     */
+    ADMINISTRATOR,
+    /**
+     * Korisnik
+     */
+    KORISNIK;
 }
