@@ -52,9 +52,9 @@ public class Racun implements Serializable{
      * @param listaStavki Lista stavki na racunu
      */
     public Racun(int racunId, Korisnik korisnik, List<StavkaRacuna> listaStavki) {
-        this.RacunId = racunId;
-        this.korisnik = korisnik;
-        this.listaStavki = listaStavki;
+    	this.setRacunId(racunId);
+    	this.setKorisnik(korisnik);
+    	this.setListaStavki(listaStavki);
     }
 
     /**

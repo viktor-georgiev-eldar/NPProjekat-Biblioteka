@@ -40,9 +40,9 @@ public class ServerskiOdgovor implements Serializable{
      * @param uspesno informacije o uspesnosti operacije
      */
     public ServerskiOdgovor(int operacija, Object argument, boolean uspesno) {
-        this.operacija = operacija;
-        this.argument = argument;
-        this.uspesno = uspesno;
+    	this.setOperacija(operacija);
+    	this.setArgument(argument);
+    	this.setUspesno(uspesno);
     }
 
     /**

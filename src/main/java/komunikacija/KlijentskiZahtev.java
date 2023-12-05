@@ -41,9 +41,9 @@ public class KlijentskiZahtev implements Serializable{
      * @param posiljalac informacije o posiljaocu
      */
     public KlijentskiZahtev(int operacija, Object argument, Korisnik posiljalac) {
-        this.operacija = operacija;
-        this.argument = argument;
-        this.posiljalac = posiljalac;
+    	this.setOperacija(operacija);
+    	this.setArgument(argument);
+    	this.setPosiljalac(posiljalac);
     }
 
     

@@ -35,8 +35,8 @@ public class StavkaRacuna implements Serializable {
      * @param kolicina  Kolicina tog artikla u stavci racuna
      */
     public StavkaRacuna(Artikal artikal, int kolicina) {
-        this.artikal = artikal;
-        this.kolicina = kolicina;
+    	this.setArtikal(artikal);
+    	this.setKolicina(kolicina);
     }
 
     /**

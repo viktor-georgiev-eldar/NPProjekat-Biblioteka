@@ -44,10 +44,10 @@ public class Artikal implements Serializable{
      * @param cena Cena artikla
      */
     public Artikal(int artikalId, String naziv, String opis, double cena) {
-        this.artikalId = artikalId;
-        this.naziv = naziv;
-        this.opis = opis;
-        this.cena = cena;
+    	this.setArtikalId(artikalId);
+    	this.setNaziv(naziv);
+    	this.setOpis(opis);
+    	this.setCena(cena);
     }
 
     /**

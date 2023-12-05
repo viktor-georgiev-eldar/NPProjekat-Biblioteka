@@ -64,14 +64,14 @@ public class Korisnik implements Serializable{
      * @param ulogovan Status ulogovanosti korisnika
      */
     public Korisnik(int korisnikId, String username, String password, String ime, String prezime, String telefon, TipKorisnika tipKorisnika, boolean ulogovan) {
-        this.korisnikId = korisnikId;
-        this.username = username;
-        this.password = password;
-        this.ime = ime;
-        this.prezime = prezime;
-        this.telefon = telefon;
-        this.tipKorisnika = tipKorisnika;
-        this.ulogovan = ulogovan;
+    	this.setKorisnikId(korisnikId);
+    	this.setUsername(username);
+    	this.setPassword(password);
+    	this.setIme(ime);
+    	this.setPrezime(prezime);
+    	this.setTelefon(telefon);
+    	this.setTipKorisnika(tipKorisnika);
+    	this.setUlogovan(ulogovan);
     }
 
     /**
