@@ -7,6 +7,8 @@ import java.io.Serializable;
 
 /**
  * Predstavlja jedan artikal sa osnovnim atributima.
+ * 
+ * @author Viktor
  */
 public class Artikal implements Serializable{
     

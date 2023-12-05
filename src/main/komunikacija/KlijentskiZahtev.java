@@ -10,7 +10,7 @@ import java.io.Serializable;
 
 /**
  *
- * @author agro
+ * @author Viktor
  */
 public class KlijentskiZahtev implements Serializable{
     private int operacija;

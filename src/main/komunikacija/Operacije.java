@@ -7,7 +7,7 @@ package komunikacija;
 
 /**
  *
- * @author agro
+ * @author Viktor
  */
 public class Operacije {
     public static final int ZATVARANJE_FORME=1;

@@ -7,7 +7,7 @@ package domenskiObjekti;
 
 /**
  *
- * @author agro
+ * @author Viktor
  */
 public enum TipKorisnika {
     ADMINISTRATOR,KORISNIK;

@@ -7,6 +7,8 @@ import java.io.Serializable;
 
 /**
  * Predstavlja jednog korisnika sa osnovnim informacijama.
+ * 
+ * @author Viktor
  */
 public class Korisnik implements Serializable{
     

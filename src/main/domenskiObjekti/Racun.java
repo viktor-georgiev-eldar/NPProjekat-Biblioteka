@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  *
- * @author agro
+ * @author Viktor
  */
 public class Racun implements Serializable{
     
